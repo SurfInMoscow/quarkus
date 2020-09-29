@@ -1,0 +1,3 @@
+mvn compile quarkus:dev
+
+mvn compile -Dquarkus.profile=check quarkus:dev
