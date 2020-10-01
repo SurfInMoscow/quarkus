@@ -13,5 +13,6 @@
     <modules>
         <module>config-quickstart</module>
         <module>lifecycle-quickstart</module>
+        <module>rest-json-quickstart</module>
     </modules>
 </project>
