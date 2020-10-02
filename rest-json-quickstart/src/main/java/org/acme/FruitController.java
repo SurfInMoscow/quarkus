@@ -29,4 +29,11 @@ public class FruitController {
         fruits.add(fruit);
         return fruits;
     }
+
+    @DELETE
+    public Set<Fruit> delete(Fruit fruit) {
+        fruits.removeIf(exfr -> exfr.getName().contentEquals(fruit.getName()));
+
+        return fruits;
+    }
 }
